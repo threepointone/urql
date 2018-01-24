@@ -1,5 +1,9 @@
 {
-  "extends": "formidable/configurations/es6-react",
+  "extends": [
+    "formidable/configurations/es6-react"
+    "prettier",
+    "prettier/react"
+  ],
   "parser": "typescript-eslint-parser",
   "globals": { "__dirname": true },
   "rules": {
